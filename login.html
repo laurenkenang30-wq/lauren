@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Member</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="halaman-login">
+        <div class="kotak">
+            <h3>MEMBER AREA</h3>
+            <input type="text" id="email" placeholder="Email (Lauren)">
+            <input type="password" id="pass" placeholder="Password (stimk)">
+            <button onclick="login()">MASUK</button>
+        </div>
+    </div>
+
+    <script>
+        function login() {
+            var email = document.getElementById('email').value;
+            var pass = document.getElementById('pass').value;
+
+            if(email == 'Lauren' && pass == 'stimk') {
+                // Jika benar, pindah ke file profil.html
+                window.location.href = 'profil.html'; 
+            } else {
+                alert('Email atau Password Salah!');
+            }
+        }
+    </script>
+
+</body>
+</html>

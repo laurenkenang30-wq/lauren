@@ -1,0 +1,51 @@
+/* --- TEMA GLOBAL (Black & Gold) --- */
+body {
+    background: #000;
+    color: #d4af37;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* --- KOMPONEN KOTAK --- */
+.kotak {
+    width: 320px;
+    padding: 25px;
+    background: #111;
+    border: 1px solid #d4af37;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+/* --- INPUT & TOMBOL --- */
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background: #222;
+    color: #fff;
+    border: 1px solid #444;
+    cursor: pointer;
+}
+
+button {
+    background: #d4af37;
+    color: #000;
+    font-weight: bold;
+    border: none;
+}
+
+/* --- UTILITAS --- */
+.hidden {
+    display: none;
+}
